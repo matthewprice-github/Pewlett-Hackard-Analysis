@@ -20,8 +20,10 @@ There are a couple of queires that could provide a little more insight into the 
 
 A query you could make to find the title counts for all current employees is this: 
 
-<SELECT COUNT (DISTINCT (emp_no)), title
+```
+SELECT COUNT (DISTINCT (emp_no)), title
 FROM titles
 WHERE to_date = '9999-01-01'
-GROUP BY title>
+GROUP BY title
+```
 
