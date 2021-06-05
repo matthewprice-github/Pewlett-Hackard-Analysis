@@ -11,9 +11,13 @@ The results of the Pewlett Hackard analysis are as follows:
 
 ## Summary 
 The analysis begs the answer of two questions: 
+
 *How many roles will need to be filled as the "silver tsunami" begins to make an impact?*
+
 As outlined in the results section, >90K roles will need to be filled as the "silver tsunami" descends on Poewlett Hackard. For senior leadership, there could be ways to consolidate or downsize certain teams as a way of offsetting the sheer volume of roles needed to be replaced. 
+
 *Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?*
+
 Considering that only ~1.5K of current employees are eligable for mentorship program, the answer is likely no. It will be hard for those 1.5K employees to fill the gap left by over 90K retirees. 
 
 There are a couple of queires that could provide a little more insight into the silver tsunami. The question I believe would be most pressing is which titles at Pewlett Hackard have the highest percentage of employees planning to retire? We know that Senior Engineer has the most roles planning to retire by volume, and managers the least, but how many employees have those titles? To find out, a a query can be made using data from the [titles](https://github.com/matthewprice-github/Pewlett-Hackard-Analysis/blob/main/Data/titles.csv) table: 
