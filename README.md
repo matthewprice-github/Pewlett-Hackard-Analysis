@@ -30,7 +30,7 @@ GROUP BY title
 ```
 Running that query, you can see that there are 85.9K Senior Engineer's currently employeed in the entire company, and 29.4K (~34%) are planning to retire, which is pretty significant. But the looking at the totals will also show that 49% of assistant engineer roles, 48% of Staff roles, and 46% of engineer roles are at retirement age! While those titles are not the most affected by volume, they are the most affected on a per capita basis. 
 
-Another aspect of the silver tsunami thats worth diving into is what departments have the largest number of retirees, we can achieve that by utlizing grouping all of the retired titles (from [unique titles](https://github.com/matthewprice-github/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.csv) table) by department (from [dept_emp](https://github.com/matthewprice-github/Pewlett-Hackard-Analysis/blob/main/Data/dept_emp.csv) and [departments](https://github.com/matthewprice-github/Pewlett-Hackard-Analysis/blob/main/Data/departments) tables) using INNER JOIN and GROUP BY: 
+Another aspect of the silver tsunami thats worth diving into is what departments have the largest number of retirees, we can achieve that by utlizing INNER JOIN and GROUP BY to group all of the retired titles (from [unique titles](https://github.com/matthewprice-github/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.csv) table) by department (from [dept_emp](https://github.com/matthewprice-github/Pewlett-Hackard-Analysis/blob/main/Data/dept_emp.csv) and [departments](https://github.com/matthewprice-github/Pewlett-Hackard-Analysis/blob/main/Data/departments) tables). 
 ``` 
 SELECT COUNT(u.emp_no), de.dept_no, d.dept_name
 FROM unique_titles as u 
