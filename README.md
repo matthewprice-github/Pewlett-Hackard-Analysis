@@ -19,10 +19,9 @@ Considering that only ~1.5K of current employees are eligable for mentorship pro
 There are a couple of queires that could provide a little more insight into the silver tsunami. The question I believe would be most pressing is which titles at Pewlett Hackard have the highest percentage of employees planning to retire? We know that Senior Engineer has the most roles planning to retire by volume, and managers the least, but how many employees have those titles? 
 
 A query you could make to find the title counts for all current employees is this: 
-'''
-SELECT COUNT (DISTINCT (emp_no)), title
+
+<SELECT COUNT (DISTINCT (emp_no)), title
 FROM titles
 WHERE to_date = '9999-01-01'
-GROUP BY title
-'''
+GROUP BY title>
 
