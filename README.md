@@ -10,7 +10,7 @@ The results of the Pewlett Hackard analysis are as follows:
 * Looking at the [mentorship eligablity list](https://github.com/matthewprice-github/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility.csv), there appear to be only ~1.5K employees that are eligable for the membership program
 
 ## Summary 
-The analysis begs the answer of two questions: 
+The analysis brings about two very importat questions:  
 
 *How many roles will need to be filled as the "silver tsunami" begins to make an impact?*
 
