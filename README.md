@@ -1,7 +1,7 @@
 # Pewlett-Hackard-Analysis
 
 ## Overview 
-The purpose of this analysis is to help identify the number of retiring employees this year from Pewlett Hackard's vast employee database, as well as identify other employees that are eligible to participate in a mentorship program. Using PostgreSQL, we are able to create queries that can select all of the upcoming retirees from the database quickly and efficiently. Judging from the results, there appears to be a "silver tsunami" of employees planning to retire. 
+The purpose of this analysis is to help identify the number of employees reaching retirement age at Pewlett Hackard using their vast employee database, as well as identify other employees that are eligible to participate in a mentorship program. Using PostgreSQL, we are able to create queries that can select all of the upcoming retirees from the database quickly and efficiently. Judging from the results, there appears to be a "silver tsunami" of employees planning to retire. 
 ## Results 
 The results of the Pewlett Hackard analysis are as follows: 
 * At a high level, looking at the [count of retiring employees by title](https://github.com/matthewprice-github/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.csv), 90K+ employees at Pewlett Hackard are ready to retire this year.
